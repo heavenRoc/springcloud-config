@@ -1,6 +1,6 @@
 server:
   # 服务端口号
-  port: 8071
+  port: 8072
 spring:
   application:
     # 服务名称 - 服务之间使用名称进行通讯
