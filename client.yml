@@ -1,0 +1,12 @@
+server:
+  # 服务端口号
+  port: 8071
+spring:
+  application:
+    # 服务名称 - 服务之间使用名称进行通讯
+    name: springcloud-config
+  cloud:
+    nacos:
+      discovery:
+        ###服务注册地址
+        server-addr: 127.0.0.1:8848
