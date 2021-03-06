@@ -4,15 +4,8 @@ server:
 spring:
   application:
     # 服务名称 - 服务之间使用名称进行通讯
-    name: springcloud-config
+    name: springcloud-config-client
   cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/heavenRoc/springcloud-config
-          username: heavenRoc
-          password: 6789@jkl
-      label: master
     nacos:
       discovery:
         ###服务注册地址
